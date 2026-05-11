@@ -1,0 +1,20 @@
+Cohort: TCGA_STAD
+Top 50 RF features (depth=3, log2-TPM, balanced)
+5-fold GroupKFold F1 macro: 0.8847 (+/- 0.0408)
+============================================================
+|--- ENSG00000164932 <= 3.32
+|   |--- ENSG00000094804 <= 2.94
+|   |   |--- ENSG00000264175 <= 0.76
+|   |   |   |--- class: Normal
+|   |   |--- ENSG00000264175 >  0.76
+|   |   |   |--- class: Normal
+|   |--- ENSG00000094804 >  2.94
+|   |   |--- ENSG00000175832 <= 4.41
+|   |   |   |--- class: Tumor
+|   |   |--- ENSG00000175832 >  4.41
+|   |   |   |--- class: Tumor
+|--- ENSG00000164932 >  3.32
+|   |--- ENSG00000099953 <= 2.30
+|   |   |--- class: Tumor
+|   |--- ENSG00000099953 >  2.30
+|   |   |--- class: Tumor

@@ -1,0 +1,20 @@
+Cohort: TCGA_BRCA
+Top 50 RF features (depth=3, log2-TPM, balanced)
+5-fold GroupKFold F1 macro: 0.9612 (+/- 0.0235)
+============================================================
+|--- ENSG00000161649 <= 3.38
+|   |--- ENSG00000018625 <= 0.01
+|   |   |--- class: Tumor
+|   |--- ENSG00000018625 >  0.01
+|   |   |--- class: Tumor
+|--- ENSG00000161649 >  3.38
+|   |--- ENSG00000123500 <= 4.82
+|   |   |--- ENSG00000123500 <= 2.06
+|   |   |   |--- class: Normal
+|   |   |--- ENSG00000123500 >  2.06
+|   |   |   |--- class: Normal
+|   |--- ENSG00000123500 >  4.82
+|   |   |--- ENSG00000078596 <= 5.87
+|   |   |   |--- class: Tumor
+|   |   |--- ENSG00000078596 >  5.87
+|   |   |   |--- class: Tumor

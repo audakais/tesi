@@ -1,0 +1,14 @@
+Cohort: TCGA_LUAD
+Top 50 RF features (depth=3, log2-TPM, balanced)
+5-fold GroupKFold F1 macro: 0.9449 (+/- 0.0394)
+============================================================
+|--- ENSG00000204305 <= 9.77
+|   |--- class: Tumor
+|--- ENSG00000204305 >  9.77
+|   |--- ENSG00000114854 <= 6.96
+|   |   |--- class: Tumor
+|   |--- ENSG00000114854 >  6.96
+|   |   |--- ENSG00000183019 <= 6.71
+|   |   |   |--- class: Normal
+|   |   |--- ENSG00000183019 >  6.71
+|   |   |   |--- class: Normal

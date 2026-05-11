@@ -1,0 +1,14 @@
+Cohort: TCGA_KIRC
+Top 50 RF features (depth=3, log2-TPM, balanced)
+5-fold GroupKFold F1 macro: 0.9636 (+/- 0.0299)
+============================================================
+|--- ENSG00000276668 <= 2.94
+|   |--- class: Tumor
+|--- ENSG00000276668 >  2.94
+|   |--- ENSG00000170549 <= 1.87
+|   |   |--- class: Tumor
+|   |--- ENSG00000170549 >  1.87
+|   |   |--- ENSG00000134258 <= 6.76
+|   |   |   |--- class: Normal
+|   |   |--- ENSG00000134258 >  6.76
+|   |   |   |--- class: Normal

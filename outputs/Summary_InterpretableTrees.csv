@@ -1,0 +1,8 @@
+Cohort,F1_Macro,F1_Std,TopN,Depth,Rules
+TCGA_BRCA,0.9612,0.0235,50,3,/mnt/c/users/utente/desktop/tesi_clean/outputs/interpretable_rules/rules_TCGA_BRCA.txt
+TCGA_KIRC,0.9636,0.0299,50,3,/mnt/c/users/utente/desktop/tesi_clean/outputs/interpretable_rules/rules_TCGA_KIRC.txt
+TCGA_LUAD,0.9449,0.0394,50,3,/mnt/c/users/utente/desktop/tesi_clean/outputs/interpretable_rules/rules_TCGA_LUAD.txt
+TCGA_LUSC,0.9586,0.0299,50,3,/mnt/c/users/utente/desktop/tesi_clean/outputs/interpretable_rules/rules_TCGA_LUSC.txt
+TCGA_PRAD,0.7961,0.0202,50,3,/mnt/c/users/utente/desktop/tesi_clean/outputs/interpretable_rules/rules_TCGA_PRAD.txt
+TCGA_STAD,0.8847,0.0408,50,3,/mnt/c/users/utente/desktop/tesi_clean/outputs/interpretable_rules/rules_TCGA_STAD.txt
+TCGA_THCA,0.9075,0.0246,50,3,/mnt/c/users/utente/desktop/tesi_clean/outputs/interpretable_rules/rules_TCGA_THCA.txt

@@ -1,0 +1,12 @@
+# Dataset grezzi e file pesanti
+python/ml_dataset_project_batches/
+python/gtex_raw/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# File temporanei
+*.tmp
+*.log
